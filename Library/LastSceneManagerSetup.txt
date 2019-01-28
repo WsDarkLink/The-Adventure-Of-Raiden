@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/TileSetprueba.unity
+- path: Assets/Scenes/Mision1/Mision1_5.unity
   isLoaded: 1
   isActive: 1
