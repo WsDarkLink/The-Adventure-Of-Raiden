@@ -1,0 +1,1643 @@
+fileFormatVersion: 2
+guid: 097b5383f79255f41867ee561a2a47d9
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: RaidenEspPar
+    21300002: RaidenEspPd
+    21300004: RaidenEspPi
+    21300006: RaidenEspArco1
+    21300008: RaidenEspArco2
+    21300010: RaidenEspArco3
+    21300012: RaidenEspArco4
+    21300014: RaidenEspArco5
+    21300016: RaidenEspArco6
+    21300018: RaidenEspArco7
+    21300020: RaidenEspA1
+    21300022: RaidenEspA2
+    21300024: RaidenEspA3
+    21300026: RaidenEspA4
+    21300028: RaidenEspA5
+    21300030: RaidenEspA6
+    21300032: RaidenFrenPar
+    21300034: RaidenFrenPd
+    21300036: RaidenFrenPi
+    21300038: RaidenItem
+    21300040: RaidenFrenArco1
+    21300042: RaidenFrenArco2
+    21300044: RaidenFrenArco3
+    21300046: RaidenFrenArco4
+    21300048: RaidenFrenArco5
+    21300050: RaidenFrenArco6
+    21300052: RaidenFrenArco7
+    21300054: RaidenFrenArco8
+    21300056: RaidenFrenArco9
+    21300058: RaidenFrenA1
+    21300060: RaidenFrenA2
+    21300062: RaidenFrenA3
+    21300064: RaidenFrenA4
+    21300066: RaidenFrenA5
+    21300068: RaidenFrenA6
+    21300070: RaidenPerdPar
+    21300072: RaidenPerdPi
+    21300074: RaidenPerdPd
+    21300076: RaidenPerdArco1
+    21300078: RaidenPerdArco2
+    21300080: RaidenPerdArco3
+    21300082: RaidenPerdArco4
+    21300084: RaidenPerdArco5
+    21300086: RaidenPerdArco6
+    21300088: RaidenPerdArco7
+    21300090: RaidenPerdA1
+    21300092: RaidenPerdA2
+    21300094: RaidenPerdA3
+    21300096: RaidenPerdA4
+    21300098: RaidenPerdA5
+    21300100: RaidenPerdA6
+    21300102: RaidenPerdA7
+    21300104: RaidenPeriPar
+    21300106: RaidenPeriPd
+    21300108: RaidenPeriPi
+    21300110: RaidenPeriArco1
+    21300112: RaidenPeriArco2
+    21300114: RaidenPeriArco3
+    21300116: RaidenPeriArco4
+    21300118: RaidenPeriArco5
+    21300120: RaidenPeriArco6
+    21300122: RaidenPeriArco7
+    21300124: RaidenPeriA1
+    21300126: RaidenPeriA2
+    21300128: RaidenPeriA3
+    21300130: RaidenPeriA4
+    21300132: RaidenPeriA5
+    21300134: RaidenPeriA6
+    21300136: RaidenPeriA7
+    21300138: FlechaEsp
+    21300140: FlechaDer
+    21300142: FlechaIzq
+    21300144: FlechaAb
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RaidenEspPar
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 915
+        width: 77
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08ad55083a2596442bd83b0e79255eff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenEspPd
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 911
+        width: 76
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03aa7decf9c160d44b4be3a285fbe3a5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenEspPi
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 905
+        width: 76
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f81218ce9334c7b4b80a36cdadd0db45
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenEspArco1
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 914
+        width: 80
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba7c6730950cdb45891ea2d09248f28
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenEspArco2
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 908
+        width: 76
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea65b2e1e4cc6d41812088e8d32074a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenEspArco3
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 904
+        width: 93
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e6040a4f085d540a5b8662973d6d85
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenEspArco4
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 891
+        width: 94
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8006903c1d2b4794bafd7492f1d00974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenEspArco5
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 900
+        width: 97
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f1b9c7dfa6cf4458d4a541dfcb5bc7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenEspArco6
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 887
+        width: 97
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e62b489c39f0d7478a0109b57b7e3cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenEspArco7
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 885
+        width: 97
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 951fd402abee8b646989ebcb0f3429ac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenEspA1
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 896
+        width: 105
+        height: 97
+      alignment: 9
+      pivot: {x: 0.33297527, y: 0.3228162}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c60fa45c14a4e0498d33f00711e0b31
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenEspA2
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 883
+        width: 84
+        height: 126
+      alignment: 9
+      pivot: {x: 0.43318975, y: 0.25503054}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 930c18a3463250d4bab227a1def31266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenEspA3
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 878
+        width: 76
+        height: 130
+      alignment: 9
+      pivot: {x: 0.47230932, y: 0.25717163}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e36f7e36299e5b448639f6299279558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenEspA4
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 879
+        width: 105
+        height: 126
+      alignment: 9
+      pivot: {x: 0.6436407, y: 0.30235413}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a15b0b3264a9d647b0685b65a05f6b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenEspA5
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 890
+        width: 123
+        height: 113
+      alignment: 9
+      pivot: {x: 0.6939112, y: 0.2796161}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26cc313feef46264eb92910e9c7ef543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenEspA6
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 882
+        width: 130
+        height: 101
+      alignment: 9
+      pivot: {x: 0.73203593, y: 0.27079546}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 800193d8988dd3742a4af54258cfc262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenFrenPar
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 749
+        width: 76
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bec3438dd9360444b57a62b104457d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenFrenPd
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 739
+        width: 76
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63ba131a4b36ef64ea3397774581351a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenFrenPi
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 738
+        width: 77
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c359bac2e3d847d4e8b420c6cd208b0f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenItem
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 741
+        width: 85
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebcfedbf7c0597e4284fdbf975f25c0b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenFrenArco1
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 746
+        width: 76
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7bf129d9e226a440ba84f53b60e72a2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenFrenArco2
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 737
+        width: 86
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 721026ba22b28f74d897dec112d8cca1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenFrenArco3
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 727
+        width: 89
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35862fa403f23f04abdb1cde700ec74c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenFrenArco4
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 714
+        width: 92
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33bbaed4cdd8d34abd7339ee46d7b6f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenFrenArco5
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 727
+        width: 92
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e778b7ed6e26348947dccca7211b96
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenFrenArco6
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 708
+        width: 93
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc493c719577ce4f9575034e5baee36
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenFrenArco7
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 687
+        width: 93
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f806a15462d778048bc334ce8e62824e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenFrenArco8
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 667
+        width: 93
+        height: 197
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b89867febfd34d745a1cebb44c6d76e5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenFrenArco9
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 741
+        width: 81
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90582d35eb86d9d4c98b673e49bd6e8e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenFrenA1
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 747
+        width: 119
+        height: 106
+      alignment: 9
+      pivot: {x: 0.6367362, y: 0.30297622}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44388495a1e7f4a43a5b2bf15f4ebc10
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenFrenA2
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 696
+        width: 80
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5574692, y: 0.46619567}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb9ab7162fb29e4aa19b0391cf83a0a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenFrenA3
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 697
+        width: 80
+        height: 160
+      alignment: 9
+      pivot: {x: 0.50320435, y: 0.47917444}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea396fb404a70b544ba07eb6966ed712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenFrenA4
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 694
+        width: 111
+        height: 151
+      alignment: 9
+      pivot: {x: 0.37530792, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ad73fa89af8ab4ba47b62f5760512b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenFrenA5
+      rect:
+        serializedVersion: 2
+        x: 1843
+        y: 700
+        width: 122
+        height: 146
+      alignment: 9
+      pivot: {x: 0.3130183, y: 0.4982442}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3acbfdc1a61a5304a8aff4eb9a3ee1fd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenFrenA6
+      rect:
+        serializedVersion: 2
+        x: 1987
+        y: 732
+        width: 135
+        height: 110
+      alignment: 9
+      pivot: {x: 0.28684354, y: 0.32702804}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5253b5c912d6df24c8e7e29568f6c6af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenPerdPar
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 489
+        width: 80
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1b69d49b3347fb4d836105cdd1e1826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenPerdPi
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 490
+        width: 86
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce25e3886570f9345a3faeef1c6c8a17
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenPerdPd
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 496
+        width: 88
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc8cc724c0d2a74292979c119106452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenPerdArco1
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 497
+        width: 89
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54e66d1925e2674f9c77c1b4f3153a6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenPerdArco2
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 491
+        width: 102
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85789b838f1ab9e4cb2add6dc384efa1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenPerdArco3
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 483
+        width: 130
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 940a011374712c34e817d73f5790591a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenPerdArco4
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 490
+        width: 106
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7ef4dae55a90bf40b537aa24b1e96f2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenPerdArco5
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 482
+        width: 130
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e82839e0a3526646ab8f13d6e66c341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenPerdArco6
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 476
+        width: 168
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 686d95c633039a849a9c13c517bd0f98
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenPerdArco7
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 482
+        width: 76
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879cdc57a9ebd5f43abc08e36bfef29f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenPerdA1
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 471
+        width: 76
+        height: 127
+      alignment: 9
+      pivot: {x: 0.6345552, y: 0.3139682}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f31dd8e028cad914cb7a76aa99d28a74
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenPerdA2
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 469
+        width: 117
+        height: 127
+      alignment: 9
+      pivot: {x: 0.37402552, y: 0.28920212}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a84ffceab42f1f24082fb6b824f8762b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenPerdA3
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 476
+        width: 122
+        height: 105
+      alignment: 9
+      pivot: {x: 0.3761747, y: 0.33514637}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37abd921c9c9a39468be2e60fe992aaf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenPerdA4
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 479
+        width: 134
+        height: 97
+      alignment: 9
+      pivot: {x: 0.35673136, y: 0.3475065}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde2cbe82b396fc40a2b4964e9ccc3e9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenPerdA5
+      rect:
+        serializedVersion: 2
+        x: 1775
+        y: 465
+        width: 126
+        height: 118
+      alignment: 9
+      pivot: {x: 0.37511045, y: 0.4253204}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 295dd3ef5bc11a9448a9ef84173fe9e0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenPerdA6
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 434
+        width: 122
+        height: 134
+      alignment: 9
+      pivot: {x: 0.3364268, y: 0.5613219}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a9076cf18c660499a6317f5433f38a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenPerdA7
+      rect:
+        serializedVersion: 2
+        x: 2042
+        y: 438
+        width: 81
+        height: 143
+      alignment: 9
+      pivot: {x: 0.58407176, y: 0.5293058}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf1479d58ac6584697ed167238806ad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenPeriPar
+      rect:
+        serializedVersion: 2
+        x: 2035
+        y: 269
+        width: 80
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1caf92772852c749bce2e38432f0126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenPeriPd
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 269
+        width: 85
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c50b140a9a759e54c8a19c5d8b446f0e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenPeriPi
+      rect:
+        serializedVersion: 2
+        x: 1802
+        y: 276
+        width: 88
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a040306033de6459362096ffdc90e9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenPeriArco1
+      rect:
+        serializedVersion: 2
+        x: 1675
+        y: 276
+        width: 89
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a75297ab2e022af4f8e1a08c2f4619a9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenPeriArco2
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 271
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09eb2c1597f2f5942b0134dc9d9629fd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenPeriArco3
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 261
+        width: 130
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2185e26de9438754c87167d1aa8c7a87
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenPeriArco4
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 269
+        width: 105
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 795a41903191ceb44a5a4d02a257b5e4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenPeriArco5
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 263
+        width: 130
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a018f5682da43e142abc9a7645a91982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenPeriArco6
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 257
+        width: 168
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa4d0516a631ca240b39dbe18169918b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenPeriArco7
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 261
+        width: 76
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b68e400c9f9b4dc4aa5898f2f530beed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenPeriA1
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 251
+        width: 77
+        height: 126
+      alignment: 9
+      pivot: {x: 0.35862118, y: 0.29485625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b605a395e3e34245aa3c04e8d3ee761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenPeriA2
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 249
+        width: 118
+        height: 126
+      alignment: 9
+      pivot: {x: 0.66489685, y: 0.30302817}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bedbd1e1aa93cf428f92a8c3fbc3353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenPeriA3
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 255
+        width: 122
+        height: 106
+      alignment: 9
+      pivot: {x: 0.6803049, y: 0.34788716}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f7638389ab15d49a4b3f4d58a0802d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenPeriA4
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 258
+        width: 135
+        height: 97
+      alignment: 9
+      pivot: {x: 0.6654801, y: 0.33672342}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af9a2b24e7a650d4ea5089a23eb53978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenPeriA5
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 245
+        width: 126
+        height: 117
+      alignment: 9
+      pivot: {x: 0.6320895, y: 0.4250642}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a1be4c4d5df2b4c9b137b9e759aa88
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenPeriA6
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 214
+        width: 122
+        height: 134
+      alignment: 9
+      pivot: {x: 0.6563203, y: 0.55350417}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d97812b7df20648978c442bc2b9016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RaidenPeriA7
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 217
+        width: 80
+        height: 143
+      alignment: 9
+      pivot: {x: 0.37398154, y: 0.529827}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5252bc28dfc92f44b2142454aa19f39
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlechaEsp
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 981
+        width: 22
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a06d84715f7ea4b939d4cb67facffd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlechaDer
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 506
+        width: 69
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb7f44fd4116a2545acb3968b7165bf7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlechaIzq
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 285
+        width: 68
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 331ef0660ba1083498300d38d4f96bbb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlechaAb
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 667
+        width: 23
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a2f87152753954459fec8a385a950d2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f9069d2571fcd0a4690856843839ac88
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

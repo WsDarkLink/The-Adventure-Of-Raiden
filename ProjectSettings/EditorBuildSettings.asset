@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainScene.unity
+    guid: cd7cf039e65343d4582e18319e0f8895
+  - enabled: 1
+    path: Assets/Scenes/CasaDentro.unity
+    guid: 50767a6afc5d14b4486cc0a47c1e240f
+  - enabled: 1
+    path: Assets/Scenes/TileSet2.unity
+    guid: 64c0dc10656ff404ba5ec68a5557b592
+  - enabled: 1
+    path: Assets/Scenes/TileSetprueba.unity
+    guid: f4205e67a28fafa4aaac21f6cfac135b
+  m_configObjects: {}
