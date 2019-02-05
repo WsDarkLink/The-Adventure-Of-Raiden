@@ -20,7 +20,7 @@ public class PickUpItem : MonoBehaviour
     private void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.tag == "Player") {
-            if (Input.GetKeyDown(KeyCode.K)) {
+            if (Input.GetKeyDown(KeyCode.J)) {
                 GameManager.instance.AddItem(GetComponent<Item>().itemName);
                 Destroy(gameObject);
             }

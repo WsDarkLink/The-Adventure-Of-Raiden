@@ -13,19 +13,6 @@ public class CharStats : MonoBehaviour
 
     public string itemK, itemL;
     
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     // aumenta el daño de los objetos cuando se sube de nivel
     public void AddLevel() {
         playerLevel++;

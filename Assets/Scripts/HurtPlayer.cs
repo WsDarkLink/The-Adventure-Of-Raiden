@@ -8,7 +8,7 @@ public class HurtPlayer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        damage = GameManager.instance.meleStats.dañoMele;
     }
 
     // Update is called once per frame
@@ -20,8 +20,7 @@ public class HurtPlayer : MonoBehaviour
     void OnCollisionEnter2D(Collision2D collision)
     {
 
-         if (collision.gameObject.name == "Player"){
-            
+         if (collision.gameObject.tag == "Player"){
             collision.gameObject.GetComponent<PlayerHealtManager>().HurtPlayer(damage);
          }
 

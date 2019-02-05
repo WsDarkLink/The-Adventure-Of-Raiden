@@ -65,13 +65,13 @@ public class MeleControlador : MonoBehaviour
             }
         }
 
-        if (reloading) {
+        /*if (reloading) {
             waitToReload -= Time.deltaTime;
             if (waitToReload < 0) {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
                 thePlayer.SetActive(true);
             }
-        } 
+        } */
 
     }
 

@@ -14,6 +14,9 @@ public class CamaraControlador : MonoBehaviour
     //limites de la camara
     private float mitadAltura;
     private float mitadAnchura;
+    //variables utilizadas por el AudioManager
+    public int musicToPlay;
+    private bool musicStarted;
 
     public 
     void Start()
@@ -36,6 +39,9 @@ public class CamaraControlador : MonoBehaviour
         transform.position = new Vector3(objetivo.position.x, objetivo.position.y, transform.position.z);
         //mantener la camara adentro del mapa
         transform.position = new Vector3(Mathf.Clamp(transform.position.x, abajoIzquierdalimite.x, arribaDerechalimite.x), Mathf.Clamp(transform.position.y, abajoIzquierdalimite.y, arribaDerechalimite.y), transform.position.z);
-
+        if (!musicStarted) {
+            musicStarted = true;
+            AudioManager.instance.PlayBGM(musicToPlay);
+        }
     }
 }

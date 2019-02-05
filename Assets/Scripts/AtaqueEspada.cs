@@ -10,7 +10,7 @@ public class AtaqueEspada : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        damageDeal = GameManager.instance.playerStats.dañoEspada;
     }
 
     // Update is called once per frame

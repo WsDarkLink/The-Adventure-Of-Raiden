@@ -23,6 +23,15 @@ public class PlayerHealtManager : MonoBehaviour
     public Sprite[] CorazonesSprite;
 
     public UIManager managerUi;
+    // variables utilizadas para daño progresivo
+    private int damagePA, totalDamage, contadorHits;
+    public bool progressiveActive;
+    public float progressiveTime;
+    private float progressiveCounter;
+    //variables utilizadas para estado: Paralizado;
+    public bool paralizadoActivo;
+    private float contTiemPar;
+    public bool invulnerable;
 
     void Start()
     {
@@ -56,15 +65,42 @@ public class PlayerHealtManager : MonoBehaviour
             }
             flashCounter -= Time.deltaTime;
         }
+    
+        //Utilizado para dañar al jugador de manera progresiva
+        if (progressiveActive) {
+
+            if (progressiveCounter <= 0f && contadorHits < totalDamage) {
+                contadorHits++;
+                HurtPlayer(damagePA);
+                progressiveCounter = progressiveTime;
+                if (contadorHits >= totalDamage) {
+                    progressiveActive = false;
+                }
+            }
+
+            progressiveCounter -= Time.deltaTime;
+        }
+
+        if (paralizadoActivo) {
+            if (contTiemPar <= 0f) {
+                GameManager.instance.fadingEntreAreas = false;
+                paralizadoActivo = false;
+            }else{
+                contTiemPar -= Time.deltaTime;
+            }
+        }
+
     }
 
     //funcion que daña al jugador, llamada desde el script HurtPlayer
     public void HurtPlayer(int monto) {
-        flashActive = true;
-        flashCounter = flashTime;
-        vidaActualJugador += monto;
-        vidaActualJugador = Mathf.Clamp(vidaActualJugador, 0, corazonesInicio * vidaPorCorazon);
-        managerUi.UpdateVida();//vidaActualJugador, vidaPorCorazon); 
+        if (!invulnerable) {
+            flashActive = true;
+            flashCounter = flashTime;
+            vidaActualJugador += monto;
+            vidaActualJugador = Mathf.Clamp(vidaActualJugador, 0, corazonesInicio * vidaPorCorazon);
+            managerUi.UpdateVida();//vidaActualJugador, vidaPorCorazon); 
+        }
     }
     //Función que cura al jugador, llamada desde el script HealPlayer
     public void HealPlayer(int monto) {
@@ -72,5 +108,20 @@ public class PlayerHealtManager : MonoBehaviour
         vidaActualJugador = Mathf.Clamp(vidaActualJugador, 0, corazonesInicio * vidaPorCorazon);
         managerUi.UpdateVida();
     }
-    
+
+    public void ProgressiveDammage(int monto, int montoMax) {
+        progressiveActive = true;
+        progressiveCounter = progressiveTime;
+        damagePA = monto;
+        totalDamage = montoMax;
+        contadorHits = 0;
+    }
+
+    public void ParalizarJugador(float tiempoparalizado, int damage) {
+        GameManager.instance.fadingEntreAreas = true;
+        paralizadoActivo = true;
+        contTiemPar = tiempoparalizado;
+        HurtPlayer(damage);
+    }
+
 }

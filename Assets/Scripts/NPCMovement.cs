@@ -46,7 +46,11 @@ public class NPCMovement : MonoBehaviour
     void Update()
     {
 
-        if (!dManager.dialogoActivo) {
+        if (dManager.dialogoActivo)
+        {
+            puedeMoverse = false;
+        }
+        else {
             puedeMoverse = true;
         }
 
@@ -58,51 +62,61 @@ public class NPCMovement : MonoBehaviour
         if (caminando) {
             contadorCaminando -= Time.deltaTime;
             
-
+            //selecciona la dirección en la que va a caminar
             switch (direccionCaminando) {
                 case 0:
                     npcRigidBody.velocity = new Vector2(0, velocidadMovimiento);
-                   
+                    animator.SetFloat("MovX", 0f);
+                    animator.SetFloat("MovY", velocidadMovimiento);
+                    // Checa si el personaje se va a salir de la zona en la que tiene permitido caminar o no, si se va a salir, detiene el movimiento del NPC
                     if (hasWalkZone && transform.position.y > maxWalkZone.y) {
                         caminando = false;
+                        animator.SetBool("NpcMoviendose", caminando);
                         contadorEspera = tiempoEspera;
-                        
+
                     }
                     break;
                 case 1:
                     npcRigidBody.velocity = new Vector2(velocidadMovimiento, 0);
-                    
+                    animator.SetFloat("MovX", velocidadMovimiento);
+                    animator.SetFloat("MovY", 0f);
+                    // Checa si el personaje se va a salir de la zona en la que tiene permitido caminar o no, si se va a salir, detiene el movimiento del NPC
                     if (hasWalkZone && transform.position.x > maxWalkZone.x)
                     {
                         caminando = false;
+                        animator.SetBool("NpcMoviendose", caminando);
                         contadorEspera = tiempoEspera;
-                       
+
                     }
                     break;      
                 case 2:
                     npcRigidBody.velocity = new Vector2(0, -velocidadMovimiento);
-                   
+                    animator.SetFloat("MovX", 0f);
+                    animator.SetFloat("MovY", -velocidadMovimiento);
+                    // Checa si el personaje se va a salir de la zona en la que tiene permitido caminar o no, si se va a salir, detiene el movimiento del NPC
                     if (hasWalkZone && transform.position.y < minWalkZone.y)
                     {
                         caminando = false;
+                        animator.SetBool("NpcMoviendose", caminando);
                         contadorEspera = tiempoEspera;
-                       
                     }
                     break;
                 case 3:
                     npcRigidBody.velocity = new Vector2(-velocidadMovimiento, 0);
-                  
+                    animator.SetFloat("MovX", -velocidadMovimiento);
+                    animator.SetFloat("MovY", 0f);
+                    // Checa si el personaje se va a salir de la zona en la que tiene permitido caminar o no, si se va a salir, detiene el movimiento del NPC
                     if (hasWalkZone && transform.position.x < minWalkZone.x)
                     {
                         caminando = false;
+                        animator.SetBool("NpcMoviendose", caminando);
                         contadorEspera = tiempoEspera;
-                        
                     }
                     break;
             }
             if (contadorCaminando < 0){
                 caminando = false;
-                
+                animator.SetBool("NpcMoviendose", caminando);
                 contadorEspera = tiempoEspera;
             }
         }
@@ -118,6 +132,7 @@ public class NPCMovement : MonoBehaviour
     void ElegirDireccion() {
         direccionCaminando = Random.Range(0, 4);
         caminando = true;
+        animator.SetBool("NpcMoviendose", caminando);
         contadorCaminando = tiempoCaminando;
         
     }

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameMenu : MonoBehaviour
 {
@@ -14,12 +15,28 @@ public class GameMenu : MonoBehaviour
     public Item activeItem;
     public Text itemName, itemDescription;
     public GameObject itemBtnOptionMenu;
+    public string mainMenuGame;
+
+    public Slider[] volumenSliders;
+    public Toggle[] resolucionToggles;
+    public int[] screenValores;
+    int resolucionActiva;
 
 
+    private bool menuExist;
     // Start is called before the first frame update
     void Start()
     {
-        instance = this;
+        if (!menuExist)
+        {
+            menuExist = true;
+            DontDestroyOnLoad(transform.gameObject);
+            instance = this;           
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
     // Update is called once per frame
@@ -37,6 +54,7 @@ public class GameMenu : MonoBehaviour
                 GameManager.instance.gameMenuOpen = true;
                 ShowItems();
             }
+            AudioManager.instance.PlaySFX(5);
         }
     }
     //Muestra y oculta las ventanas de inventario y ajustes
@@ -53,6 +71,7 @@ public class GameMenu : MonoBehaviour
     }
     //Muestra los items que posee el jugador en pantalla
     public void ShowItems() {
+        //GameManager.instance.SortItems();
         for (int i = 0; i < itemBtns.Length; i++) {
             itemBtns[i].btnValue = i;
             if (GameManager.instance.itemStock[i] != "") {
@@ -83,6 +102,83 @@ public class GameMenu : MonoBehaviour
     public void UseItem(int btnNum) {
         activeItem.Use(btnNum);
         CloseItemBtnOption();
+    }
+
+    public void QuitGame() {
+        Destroy(GameManager.instance.gameObject);
+        Destroy(PlayerControlador.instance.gameObject);
+        Destroy(AudioManager.instance.gameObject);
+        Destroy(gameObject);
+    }
+
+    public void PlayBtnSound() {
+        AudioManager.instance.PlaySFX(4);
+    }
+
+    public void PlayEquipItemSFX() {
+        AudioManager.instance.PlaySFX(6);
+    }
+    //Para resoluciones con "escala" 16/9
+    public void SetResolucionPantalla(int i) {
+        if (resolucionToggles[i].isOn) {
+            resolucionActiva = i;
+            float aspectRatio = 16 / 9f;
+            Screen.SetResolution(screenValores[i], (int)(screenValores[i] / aspectRatio), false);
+        }
+    }
+    public void ResolucionCulera(int i) {
+        if (resolucionToggles[0].isOn) {
+            resolucionActiva = 0;
+            Screen.SetResolution(screenValores[0], 768, false);
+        }
+    }
+
+    public void SetFullScreen(bool isFullScreen) {
+        for (int i = 0; i < resolucionToggles.Length; i++) {
+            resolucionToggles[i].interactable = !isFullScreen;
+        }
+        if (isFullScreen) {
+            //obtener la lista de resoluciones disponibles para el monitor
+            Resolution[] allResolutions = Screen.resolutions;
+            Resolution maxResolution = allResolutions[allResolutions.Length - 1];
+            Screen.SetResolution(maxResolution.width, maxResolution.height, true);
+        }
+        else
+        {
+            if (resolucionActiva > 0)
+            {
+                SetResolucionPantalla(resolucionActiva);
+            }
+            else {
+                ResolucionCulera(resolucionActiva);
+            }
+        }        
+    }
+
+    public void SetVolumenMaestro(float valor) {
+        for (int i = 0; i < AudioManager.instance.bgm.Length; i++)
+        {
+            AudioManager.instance.bgm[i].volume = valor;
+        }
+        for (int i = 0; i < AudioManager.instance.sfx.Length; i++)
+        {
+            AudioManager.instance.sfx[i].volume = valor;
+        }
+    }
+
+    public void SetVolumenMusica(float valor)
+    {
+        for (int i = 0; i < AudioManager.instance.bgm.Length; i++) {
+            AudioManager.instance.bgm[i].volume = valor;
+        }
+    }
+
+    public void SetVolumenFX(float valor)
+    {
+        for (int i = 0; i < AudioManager.instance.sfx.Length; i++)
+        {
+            AudioManager.instance.sfx[i].volume = valor;
+        }
     }
 
 }
